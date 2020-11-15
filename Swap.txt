@@ -1,0 +1,19 @@
+public static void main(String args[])
+{
+int a=5,b=4,temp;
+//int count=0;
+temp=a;
+a=b;
+b=temp;
+System.out.println("a is" +a +""+"b is"+b);
+
+or
+
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.println(a,b);
+
+
+}
+
